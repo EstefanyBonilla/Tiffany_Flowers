@@ -1,0 +1,32 @@
+#presentacion {
+    width: 100%;
+    height: 50vh;
+    background: url("../img/fondito.jpg") top center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    border-top: 15px solid #f17e97;
+    border-bottom: 15px solid #f17e97;
+}
+#presentacion div.animacionAos {
+    color: #070707;
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    #presentacion div.animacionAos [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+}
+#presentacion div.animacionAos text {
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+    font-style: italic;
+}
+#presentacion div.animacionAos p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+}

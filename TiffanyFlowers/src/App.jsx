@@ -1,4 +1,4 @@
-// import myLogo from "./assets/img/logo.jpg"
+// import myLogo from "./assets/logo.jpg"
 // import './App.css'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Itemlistcontainer from './components/ItemListContainer/Itemlistcontainer'
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      {/* <Navbar links={enlaces}/> */}
+      <Navbar links={enlaces}/>
       <Cartwidget />
       <Itemlistcontainer mensaje={greeting}/>
     </>

@@ -3,7 +3,6 @@ import "./itemlistcontainer.css";
 
 let styleMensaje = {
     fontWeight: 500,
-    // textAlign: center,
     fontFamily: 'Playfair Display',
     fontSize: 32
 };

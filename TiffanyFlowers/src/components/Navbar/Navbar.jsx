@@ -1,5 +1,6 @@
 import React from 'react';
 import "./navbar.css";
+import Cartwidget from './Cartwidget';
 
 
 const Navbar = ({links}) => {
@@ -12,16 +13,16 @@ const Navbar = ({links}) => {
       </div> */}
       <h1>Tiffany Flowers</h1>
       <nav id="navbar" className="navbar">
-      <ul>
-        <li><a className="nav-link" href="#interior">PLANTAS DE INTERIOR</a></li>
-        <li><a className="nav-link" href="#exterior">PLANTAS DE EXTERIOR</a></li>
-        <li><a className="nav-link" href="#ramos">RAMOS</a></li>
-        <li><a className="nav-link" href="#macetas"> MACETAS</a></li>
-        <li><a className="nav-link" href="#floreros">FLOREROS </a></li>
-        
-      </ul>   
-    </nav>
-  </div>
+        <ul>
+          <li><a className="nav-link" href="#interior">PLANTAS DE INTERIOR</a></li>
+          <li><a className="nav-link" href="#exterior">PLANTAS DE EXTERIOR</a></li>
+          <li><a className="nav-link" href="#ramos">RAMOS</a></li>
+          <li><a className="nav-link" href="#macetas"> MACETAS</a></li>
+          <li><a className="nav-link" href="#floreros">FLOREROS </a></li>
+        </ul>   
+        <Cartwidget />
+      </nav>
+    </div>
   );
 };
 

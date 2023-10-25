@@ -18,7 +18,6 @@ function App() {
   return (
     <>
       <Navbar links={enlaces}/>
-      <Cartwidget />
       <Itemlistcontainer mensaje={greeting}/>
     </>
   )

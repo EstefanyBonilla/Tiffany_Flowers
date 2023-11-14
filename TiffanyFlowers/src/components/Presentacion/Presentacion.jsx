@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Contacto = () => {
+const Presentacion = () => {
     return (
-        <div>
-            <img src="" alt="" />
+        <div >
+            <section className="d-flex justify-content-center align-items-center mt-4 presentation">
+                <div className="container">
+                    <p className="text-center texto pb-1">Los pequeños detalles son los que cuentan</p><br/>
+                    <p>Regalale a alguien especial, algo especial...</p>
+                </div>
+            </section>
         </div>
     );
 };
 
-export default Contacto;
+export default Presentacion;

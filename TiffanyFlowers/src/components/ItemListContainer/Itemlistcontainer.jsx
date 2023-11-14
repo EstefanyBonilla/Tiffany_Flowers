@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import "./itemlistcontainer.css"; 
 import ItemList from '../ItemList/ItemList';
-// import Item from '../Item/Item';
 import { useParams } from 'react-router-dom';
 
 
@@ -32,9 +31,10 @@ const ItemListContainer = () => {
 
     return (
         <>
+            <h3>{categoryId}</h3>
             {products.length == 0 
             ?
-            <h1>CARGANDO.........</h1>
+            <h1>CARGANDO...</h1>
             :   
             <ItemList products={products}/>}       
         </>

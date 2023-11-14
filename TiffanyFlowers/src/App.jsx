@@ -14,6 +14,7 @@ import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
 import Error from './components/Error/Error'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Presentacion from './components/Presentacion/Presentacion'
 
 
 
@@ -26,6 +27,8 @@ function App() {
     <BrowserRouter>
 
     <Navbar/>
+
+    <Presentacion/>
 
     <Routes>
 

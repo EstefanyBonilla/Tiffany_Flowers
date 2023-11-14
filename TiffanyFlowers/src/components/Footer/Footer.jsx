@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
        
-        <div className="footer container  ">
-            <div className="row footer-top ">
-                <div className="col-lg-4 col-md-6 footer-info ">
+        <div className="footer container">
+            <div className="row footer-top">
+                <div className="col-lg-4 col-md-6 footer-info">
                     <h2>Tiffany Flowers</h2>
                     <p className="pb-3"><em>Nos importa la satisfacción de nuestros clientes, por ello tratamos de ofrecer el mejor servicio.</em></p>
                     <p>Avenida Las flores 519 <br/>
@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-2 col-md-6 footer-links ">
+                <div className="col-lg-2 col-md-6 footer-links">
                     <h4>Mas información</h4>
                     <ul>
                     <li><i className="bx bx-chevron-right"></i> <a href="/">Inicio</a></li>

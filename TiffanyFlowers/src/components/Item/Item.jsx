@@ -7,18 +7,15 @@ const Item = ({product}) => {
 
     return (
         <>
-        <div className='contenedor'>
-            <Link to={`/item/${product.id}`}>
-                <h1>{product.nombre}</h1>
-            </Link>
-            
-            <img className='foto' src={product.img} alt={product.nombre} />
-            
-        </div>  
-
-        
+        <div className="container align-items-top d-flex">
+            <div className='contenedor row g-4'>
+                <Link to={`/item/${product.id}`}>
+                    <h5>{product.nombre}</h5>
+                </Link>
+                <img className='foto' src={product.img} alt={product.nombre} /> 
+            </div> 
+        </div>
         </>
-        
     );
 };
 

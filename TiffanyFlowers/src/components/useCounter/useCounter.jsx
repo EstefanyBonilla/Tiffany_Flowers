@@ -12,7 +12,7 @@ const useCounter = (initial) => {
     }
 
     const mensaje = () => {
-        alert("")
+        alert("agregado?")
     }
 
     

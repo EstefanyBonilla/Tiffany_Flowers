@@ -2,8 +2,8 @@ import React from 'react';
 
 const Cartwidget = () => {
     return (
-        <div className="cart">
-            <a className="btn icono" href="./pages/carrito.html">
+        <div className="navbar a">
+            <a className="btn icono" href="/">
                 <span id="cartCount">0</span><br/>
                 <i className="fas fa-shopping-cart"></i>
             </a>

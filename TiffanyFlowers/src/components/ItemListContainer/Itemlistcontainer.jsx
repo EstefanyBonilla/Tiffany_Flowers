@@ -1,18 +1,45 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import "./itemlistcontainer.css"; 
+import ItemList from '../ItemList/ItemList';
+// import Item from '../Item/Item';
+import { useParams } from 'react-router-dom';
 
-let styleMensaje = {
-    fontWeight: 500,
-    fontFamily: 'Playfair Display',
-    fontSize: 32
-};
 
-const Itemlistcontainer = ({mensaje}) => {
-    console.log(mensaje)
-    return (
-        <h1 style={styleMensaje}>{mensaje}</h1>
-    );
-};
 
-export default Itemlistcontainer; 
+const ItemListContainer = () => {
+    const [products,setProducts] = useState([]);
+    const {categoryId} = useParams()
     
+    useEffect(()=>{
+
+        const fetchData = () => {
+            return fetch("/data/productos.json")
+            .then((response) => response.json())
+            .then((data)=>{
+               if(categoryId){
+                const filterProducts = data.filter(p=>p.categoria == categoryId)
+                setProducts(filterProducts)
+               }else{
+                setProducts(data)
+               }
+                
+            })
+            .catch((error)=>console.log(error))
+        }
+
+        fetchData()
+
+    },[categoryId])
+
+    return (
+        <>
+            {products.length == 0 
+            ?
+            <h1>CARGANDO.........</h1>
+            :   
+            <ItemList products={products}/>}       
+        </>
+    );
+}
+
+export default ItemListContainer; 

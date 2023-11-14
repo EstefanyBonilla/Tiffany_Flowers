@@ -1,0 +1,95 @@
+[
+ {
+    "id": 1,
+    "nombre": "Rosario",
+    "precio": 6,
+    "img": "/img/c3.jpg",
+    "descripcion": "Planta de 30cm aproximadamente de longitud",
+    "stock":5,
+    "categoria":"PLANTAS DE INTERIOR"
+  },
+  {
+    "id": 2,
+    "nombre": "Hoja de banana",
+    "precio": 6,
+    "img": "/img/02.jpg",
+    "descripcion": "Planta de 90cm aproximadamente de altura",
+    "stock":15,
+    "categoria":"PLANTAS DE INTERIOR"
+  },
+  {
+    "id": 3,
+    "nombre": "Cactus jamacaru",
+    "precio": 6,
+    "img": "/img/005.jpg",
+    "descripcion": "3 cactus jamacaru distintas alturas",
+    "stock":54,
+    "categoria":"PLANTAS DE EXTERIOR"
+  },
+  {
+    "id": 4,
+    "nombre": "Lavanda",
+    "precio": 6,
+    "img": "/img/002.jpg",
+    "descripcion": "Hermosa planta de lavanda de 50cm de altura",
+    "stock":25,
+    "categoria":"PLANTAS DE EXTERIOR"
+   },
+   {
+    "id": 5,
+    "nombre": "Ramo rosas rosa",
+    "precio": 8,
+    "img": "/img/1.jpg",
+    "descripcion": "Ramo de rosas rosa y blanco",
+    "stock":14,
+    "categoria":"RAMOS"
+  },
+  {
+    "id": 6,
+    "nombre": "Ramo rosas rojas",
+    "precio": 8,
+    "img": "/img/7.jpg",
+    "descripcion": "Ramo de rosas color rojo y flores amarillas",
+    "stock":21,
+    "categoria":"RAMOS"
+  },
+  {
+    "id": 7,
+    "nombre": "Maceta #01",
+    "precio": 8,
+    "img": "/img/m4.jpg",
+    "descripcion": "Maceta de 20cm de diametro y 40cm de altura, color cemento y base dorada",
+    "stock":11,
+    "categoria":"MACETAS"
+  },
+  {
+    "id": 8,
+    "nombre": "Maceta #02",
+    "precio": 5,
+    "img": "/img/m5.jpg",
+    "descripcion": "Maceta de 20cm de diametro y 40cm de altura, color blanco y marmoleado dorado",
+    "stock":18,
+    "categoria":"MACETAS"
+  },
+  {
+    "id": 9,
+    "nombre": "Florero #01",
+    "precio": 8,
+    "img": "/img/j8.jpg",
+    "descripcion": "Florero de vidrio transparente con estructura metalica dorada",
+    "stock":25,
+    "categoria":"FLOREROS"
+  },
+  {
+    "id": 10,
+    "nombre": "Florero #02",
+    "precio": 8,
+    "img": "/img/j3.jpg",
+    "descripcion": "Florero de vidrio color blanco de silueta femenina (claviculas y cabeza)",
+    "stock":7,
+    "categoria":"FLOREROS"
+  }
+
+
+    
+]

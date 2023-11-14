@@ -12,10 +12,10 @@ const useCounter = (initial) => {
     }
 
     const mensaje = () => {
-        alert("hola")
+        alert("")
     }
 
-    let variable = "MENSAJE"
+    
 
     return {count,increment,decrement,mensaje};
 };

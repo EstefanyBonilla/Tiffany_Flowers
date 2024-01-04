@@ -11,7 +11,7 @@ const ThemeProvider = ({children}) => {
 
    
 
-    const ejemplo = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur, quae debitis nobis amet, repellat quos excepturi doloribus quo perferendis explicabo vel dolorum quod neque officiis! Similique praesentium provident laudantium."
+    const ejemplo = "Loreofficiis! Similique praesenti."
 
     return(
         <ThemeContext.Provider value={

@@ -35,11 +35,13 @@ const ItemListContainer = () => {
     return (
         <>
             <h3>{categoryId}</h3>
-            {products.length == 0 
-            ?
+            {loading ? ( 
+            
             <h1>CARGANDO...</h1>
-            :   
-            <ItemList products={products}/>}       
+            )
+            : (
+            <ItemList products={products}/>
+            )}       
         </>
     );
 }

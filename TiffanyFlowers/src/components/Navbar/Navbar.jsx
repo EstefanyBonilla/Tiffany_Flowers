@@ -1,8 +1,7 @@
 import React from 'react';
 import "./navbar.css";
-import Cartwidget from './CartWidget';
-import { Link } from 'react-router-dom';
-
+import Cartwidget from '../CartWidget/CartWidget';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -24,14 +23,14 @@ const Navbar = () => {
       <ul className="navbar ul">
         {enlaces.map((e,id) => 
           <li className="navbar li" key={id}>
-            <Link to={`${e}`}>
+            <NavLink activeclassname="active" to={`${e}`}>
               {e}
-            </Link>
+            </NavLink>
           </li>
         )}
         
       </ul>
-      <Cartwidget />
+      <Cartwidget/>
     </div>
   );
 };

@@ -1,3 +1,20 @@
+#Librerias publicas
+
+
+#Boostrap
+# https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+# Desde mi parecer esta libreria nos permite ahorrarnos codigo que puede ser repetitivo e inclusive podemos ser mas rapidos ya que se abrevian muchas palabras, de igual manera nos permite obtener una pagina "bonita" mas facilmente.
+
+#Boxicons
+#https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css
+#Elegi usar esta libreria de iconos ya que me brindaba justo lo que buscaba; ayudandome con la presentacion que yo quiero brindarle a mi app, que desde mi punto de vista la hace ver mejor ya que tiene un mejor contraste haciendo que sea mas facil de observar para el usuario.
+
+#FontAwesome
+#https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+#Me decidi por utilizar fontawesome ya que me permitia usar el icono del carrito que yo queria que el usuario visualizara. Desde el punto de vista de un usuario, es uno de los que mas conocen, por ende, se pueden sentir mas comodos usando la app, ya que conocen ciertos elementos
+
+
+
 # Logs
 logs
 *.log
@@ -22,3 +39,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+

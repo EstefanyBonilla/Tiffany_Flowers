@@ -12,10 +12,9 @@ const useCounter = (initial) => {
     }
 
     const mensaje = () => {
-        alert("agregado?")
+        alert("hecho")
     }
 
-    
 
     return {count,increment,decrement,mensaje};
 };

@@ -6,7 +6,6 @@ const RenderProp = ({funcion}) => {
             <button onClick={funcion}>
                 Render button
             </button>
-            
         </div>
     );
 };
